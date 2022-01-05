@@ -1,0 +1,85 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Zetta:wght@300&family=Poppins:ital,wght@0,200;0,400;0,500;0,600;0,700;0,800;1,400&family=Syncopate:wght@700&display=swap');
+
+
+body{
+    background:linear-gradient(87.55deg, #E0D9DC 1.5%, #E4DEDF 33.24%, #EFE9E7 106.56%);
+    font-family: Poppins;
+    font-weight: 400;
+}
+
+a{
+    text-decoration:none;
+    color:#101010 !important;
+}
+
+li {
+    color:#101010 !important;
+}
+
+.logomarca{
+    font-family:Poppins;
+    font-size:24px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+
+.cursor{
+    display:block;
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    border-radius: 60px;
+    border:1px solid salmon;
+    margin-top: 15px;
+    margin-left:-15px;
+}
+
+#parallax{
+    background-image:url('https://cdn.wallpapersafari.com/10/91/wS7BJG.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 60vh;
+    width: 400px;
+    filter:grayscale(80%);
+    margin-right:-10;
+    
+}
+
+
+.perfil1, .perfil2, .perfil3, .perfil4{
+    background-image:url('https://th.bing.com/th/id/OIP.7gkTNg2k3WmBthMtG2nH1wHaFS?pid=ImgDet&rs=1');
+    width: 100px;
+    height: 100px;
+    border-radius: 60px;
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.perfil2{
+    background-image:url('https://th.bing.com/th/id/OIP.IutNTcxqILsI9XUk6jMKUQHaFO?pid=ImgDet&rs=1');
+}
+
+
+.perfil3{
+    background-image:url('https://th.bing.com/th/id/OIP.6lqDVhqDTTtexB_jbr22tQAAAA?pid=ImgDet&rs=1');
+    }
+
+.perfil4{
+    background-image:url('https://th.bing.com/th/id/OIP.MycE_T2lG4WKESaHVjMcAwHaLH?pid=ImgDet&w=1280&h=1920&rs=1');
+}
+
+.titulo-principal{
+    margin-top:50px !important;
+}
+
+#formulario{
+    background-color:white;
+    border-radius: 10px;
+    padding: 50px 90px 50px 90px;
+}
